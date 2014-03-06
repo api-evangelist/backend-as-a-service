@@ -47,7 +47,7 @@ function getUrlVar(key){
 // Requires Mustache - http://mustache.github.io/
 // Displays BaaS Detail 
 function getCompanyDetails(id){
-    $.getJSON('data/companies.json', function(data) {   
+    $.getJSON('/data/companies.json', function(data) {   
         $.each(data['company'], function(key, val) {
             
             thisid = val['id'];
