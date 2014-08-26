@@ -34,3 +34,26 @@ title: Backend as a Service
 </ul>
 <p>What is possible with BaaS varies depending on the platform provider, but we are starting to see some common building blocks emerge from the 40+ BaaS providers on the landscape currently.</p>
 <p>BaaS is a natural response to software development being moved into the cloud, and the decoupling of common resources into individual APIs. &nbsp;In 2013 we know we need our platforms to perform and scale in the cloud, while bringing the resources we depend on into meaningful sets that we can efficiently build apps around, without having to go gather them from around the web.</p>
+
+<hr />                
+              
+{% for post in site.posts limit:2 %}
+<div class="post">
+    
+    <p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000;"><h4><strong>{{ post.title }}</strong></h4></a> (<i><strong><span class="small">Posted on</span> <span class="post-date">{{ post.date | date:"%m-%d-%Y" }}</span></strong></i>)
+    <p><a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}"><img src="{{ post.image }}" width="175" align="left" style="padding: 15px;" /></a></p>
+    <p>{{ post.content | strip_html | truncatewords: 100 }}...<a href="{{ post.source }}" rel="bookmark" title="{{ post.title }}" style="color:#000; font-weight: bold;">read more</a>.</p>
+    <br />
+    <hr />     
+   
+</div> 
+{% endfor %}  
+
+<br /><br />
+<!-- 3scale -->
+<p align="center">
+<a href="http://3scale.net" target="_blank" title="APIs From 3Scale">
+    <img src="https://s3.amazonaws.com/kinlane-productions/api-service-providers/3Scale/empowered-by-3scale.png" width="300" style="padding-bottom: 15px;" />
+</a>        
+</p>
+<!-- 3scale -->  

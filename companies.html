@@ -20,36 +20,42 @@ title: Companies
 </style>
 
 <ul class="toolbar">
-    <li>{"<a href="https://raw.github.com/kinlane/backend-as-a-service/gh-pages/data/companies.json" title="JSON" target="_blank">JSON</a>"}</li>
+    <li>{"<a href="https://raw.github.com/kinlane/api-deployment/gh-pages/data/companies.json" title="JSON" target="_blank">JSON</a>"}</li>
     <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
     <li>{"<a href="https://gist.github.com/kinlane/5992075" title="Script" target="_blank">SCRIPT</a>"}</li>
 </ul>
 
 <h1 class="title">BaaS Providers</h1>
 
-<p>There are 53  companies working to make their mark in the BaaS space, looking to serve the mobile app developer community. Each of these providers have their own approach to delivering their BaaS stack, but many are emulating the successful patterns of the handful of BaaS pioneers.
-<p>Some BaaS providers are looking to enable mobile developers to build cross-platform apps on any device in any business sector.  While other are looking to serve a niche like gaming or focus exclusively on strengthening the marketing efforts of companies via this fast growing world of consumer devices.  
-<p>Each week this list grows with new entries, and we will add new ones as they emerge. And as the BaaS definition evolves we may start to break this up into different groupings, like marketing, gaming, etc.</p>
-<!--BaaS Full Listing Template--->
 {% raw  %}
 <script id="companyListingTemplate" type="text/template">       
-    <li>
-        <a href="companies-detail.html?id={{id}}"><img src="{{logo}}" width="150" align="left" style="padding: 15px;" /></a>
-        <a href="companies-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="companies-detail.html?id={{id}}">details</a>.
-    </li>                                                                                               
+    <tr>
+        <td align="left" valign="top">
+            <a href="" id="home-logo-link-{{id}}"><img src="{{logo}}" width="{{logo_width}}" align="left" style="padding: 15px;" /></a>
+            <a href="" id="home-name-link-{{id}}" style="color: #000;"><strong>{{name}}</strong></a><br />{{summary}}
+        </td>
+    </tr>
+    <tr>
+        <td align="center" valign="middle">            
+            <a href="index.html" target="_blank" title="Website" id="home-icon-{{id}}"><img id="home-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-home-icon.jpeg" width="25" style="margin-bottom: 5px; padding:15px;" /></a>
+            <a href="index.html" target="_blank" title="Blog" id="blog-icon-{{id}}"><img id="blog-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-blog-icon.png" width="25" style="padding:15px;margin-bottom: 3px; " /></a>
+            <a href="index.html" target="_blank" title="Blog RSS" id="blogrss-icon-{{id}}"><img id="blogrss-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="30" style="padding:15px;" /></a>
+            <a href="index.html" target="_blank" title="Twitter" id="twitter-icon-{{id}}"><img id="twitter-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png" width="30" style="padding:15px;margin-bottom: 3px; " /></a>
+            <a href="index.html" target="_blank" title="Githube" id="github-icon-{{id}}"><img id="github-icon-img-{{id}}" src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github-icon.png" width="35" style="padding:15px;" /></a>            
+       </td>
+    </tr> 
+    <tr>
+        <td colspan="3"><hr /></td>
+    </tr>                                                                                                   
 </script>
 {% endraw %}
 
-<!--BaaS Full Listing Container--->
-<div class="baaslistingcontainter">
-     <ul id="companyListing" class="baaslisting"></ul>
+<div>
+     <p align="center"><hr /></p>
+     <table id="companyListing" style="padding-left: 35px;" width="90%" cellpadding="1" cellspacing="1"></table>
 </div>  
 
-<!--BaaS Full Listing JavaScript--->
 <script type="text/javascript">
-
-// Requires Mustache - http://mustache.github.io/
-
 function listCompanies()
     {
     $.getJSON('data/companies.json', function(data) {
@@ -57,13 +63,30 @@ function listCompanies()
          $.each(data['company'], function(key, val) {
             var template = $('#companyListingTemplate').html();
             var html = Mustache.to_html(template, val);
-            $('#companyListing').append(html);                          
+            $('#companyListing').append(html);     
+                        
+            id = val['id'];
+            website = val['website'];
+            
+            if(website.length>0){ document.getElementById("home-logo-link-"+id).href=website; }               
+            if(website.length>0){ document.getElementById("home-name-link-"+id).href=website; }              
+            if(website.length>0){ document.getElementById("home-icon-"+id).href=website; } else { document.getElementById("home-icon-img-"+id).style.display='none'; }              
+                                    
+            blog = val['blog'];
+            if(blog.length>0){ document.getElementById("blog-icon-"+id).href=blog; } else { document.getElementById("blog-icon-img-"+id).style.display='none'; }
+                            
+            blogrss = val['blogrss'];
+            if(blog.length>0){ document.getElementById("blogrss-icon-"+id).href=blogrss; } else { document.getElementById("blogrss-icon-img-"+id).style.display='none'; }
+            
+            twitter = val['twitter'];
+            if(twitter.length>0){ document.getElementById("twitter-icon-"+id).href=twitter; } else { document.getElementById("twitter-icon-img-"+id).style.display='none'; }
+            
+            github = val['github'];
+            if(github.length>0){ document.getElementById("github-icon-"+id).href=github; } else { document.getElementById("github-icon-img-"+id).style.display='none'; }
+                        
+                                 
             });
         });
     } 
-</script>
-
-<!--Trigger BaaS Full Listing JavaScript onLoad-->
-<script type="text/javascript">
 listCompanies();
 </script>
