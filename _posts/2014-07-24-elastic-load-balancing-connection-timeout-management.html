@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'Elastic Load Balancing Connection Timeout Management'
+url: https://aws.amazon.com/blogs/aws/elb-idle-timeout-control/
+source: https://aws.amazon.com/blogs/aws/elb-idle-timeout-control/
+domain: aws.amazon.com
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/aws-amazon-comblogsawselb-idle-timeout-control.png
+---
+
+<p>10 metrics, 10 alarms, 1M API requests for Amazon CloudWatch each month for one year.AWS Free Tier Details »                                                                              
+24 Jul 2014 in EC2, Elastic Load Balancing|permalink    	
+   When your web browser or your mobile device makes a TCP connection to an   Elastic Load   Balancer, the connection is used for the request and the   response, and then remains open for a short amount of time for   possible reuse.This time period is known as the idle   timeout for the Load Balancer and is set to 60   seconds.Behind the scenes, Elastic Load Balancing also manages TCP   connections to   Amazon EC2 instances; these connections   also have a 60 second idle timeout.</p>
+
