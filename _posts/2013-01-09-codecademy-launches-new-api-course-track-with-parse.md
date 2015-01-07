@@ -1,8 +1,0 @@
----
-layout: post
-title: Codecademy Launches New API Course Track with Parse
-url: http://blog.parse.com/2013/01/09/codecademy-launches-new-api-course-track-with-parse/
----
-{% include JB/setup %}<p>The rise in alternative education on the internet is a really exciting advancement in the way the world is learning new skills.For example, learning to code has never been easier for anyone with access to an internet-ready device.There are amazing online courses and hacker schools popping up all around the globe to help people who want to advance their technical skills.One of the top companies helping students become more technical is Codecademy.Codecademy is an amazing and passionate group of people based in New York City who are working hard to build a better way for anyone to learn how to code.Today Codecademy is taking their mission one step further by launching a new set of courses that teach anyone how to build simple apps that use APIs.Everyone here at Parse is extremely proud to be a part of this launch and we’re excited to announce the brand new Parse API course.With the Parse course, Codecademy students will learn an introduction to Parse, how to retrieve data with queries, and everything they need to get started with setting up Parse users.At the end of the four part course, the student will have their own Parse account and know how to create, update, and fetch objects, as well as handle user authentication with Parse.Once you’ve completed the course, we even have our very own Parse badge!</p>
-<p><a href="http://blog.parse.com/2013/01/09/codecademy-launches-new-api-course-track-with-parse/">Read Full Story</a></p>
-

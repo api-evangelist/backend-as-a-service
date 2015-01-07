@@ -1,8 +1,0 @@
----
-layout: post
-title: Appcelerator Platform Pricing Updates
-url: http://developer.appcelerator.com/blog/2013/04/appcelerator-platform-pricing-updates.html
----
-{% include JB/setup %}<p>I am personally committed to openness and transparency regarding our pricing and licensing.When I announced the new Appcelerator Platform last week, I mentioned that I was going to follow-up to provide you with details about the changes that we are making to our Plans & Pricing.As I’ve said before, we care deeply about providing you with outstanding value and high quality products at competitive prices.This has been our commitment from the day Nolan and I started this company.One of our core company values is to “Enable Customer Success,” and we are honored each and every day to empower you to deliver transformative mobile experiences to the world.For our free “Explore” package, we significantly boosted the monthly allotments of Cloud Services and Analytics recently in order to give the majority of our developers a free “all-you-can-eat” offering for their mobile apps.We created this strategy to better serve the needs of our community, and the feedback we received was extremely positive.Recently, we also posted answers to some of the more common billing and usage questions.With regards to the Appcelerator Platform, we’re focused on the specific needs of mobile enterprises.As you are well aware, mobile is exploding and disrupting everything.</p>
-<p><a href="http://developer.appcelerator.com/blog/2013/04/appcelerator-platform-pricing-updates.html">Read Full Story</a></p>
-

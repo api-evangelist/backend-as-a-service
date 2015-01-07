@@ -1,8 +1,0 @@
----
-layout: post
-title: Medical Apps and the Mobile Health Tracking Culture, From Kumulos (Backend as a Service)
-url: http://www.kumulos.com/2013/02/21/medical-apps-kumulos-backend-as-a-service-2/
----
-{% include JB/setup %}<p>It’s pretty hard in this age of high stress, constantly switched on environment to keep track of our health.And with obesity becoming an ever bigger problem, we’re being pushed to be healthy now more than ever.So how do you keep track of your health and fitness when it’s rare for us all to get a moment’s break to even just sit and relax for half an hour?Well this is where the mobile app industry is stepping in to fill this gap.After all, we nearly always have our phones on us right?So why not have apps on their that we can tap into whenever we have a few minutes spare, for example on the bus or something like that?Well, the good answer is that we do, in droves in fact.The app market is swamped with medical and fitness apps of every kind you can imagine, and they are one of the highest earning types of app on the market.A recent study by the Pew Internet & American Life Project found that many of us are now regularly using mobile apps to track our health in various ways, whether it be our weight, fitness programs, medication routine or even symptoms.As the infographic shows, 19% of mobile users in the US are now using mobile health apps as part of their overall health tracking programs, with the most using it to help manage their exercise.</p>
-<p><a href="http://www.kumulos.com/2013/02/21/medical-apps-kumulos-backend-as-a-service-2/">Read Full Story</a></p>
-

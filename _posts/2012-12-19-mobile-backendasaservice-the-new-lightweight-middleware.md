@@ -1,8 +1,0 @@
----
-layout: post
-title: Mobile Backend-As-A-Service: The New Lightweight Middleware?
-url: http://blogs.forrester.com/michael_facemire/12-04-25-mobile_backend_as_a_service_the_new_lightweight_middleware
----
-{% include JB/setup %}<p>It’s no secret that demand for mobile applications is skyrocketing in both the consumer and enterprise space.To meet that demand, application development shops are continually looking for new ways to accelerate development of apps that meet their consumers’ needs. In response, many new ISVs are beginning to offer a set of cloud-based, server-side mobile services to make app development quicker and easier to deploy.ISVs are referring to those services as “mobile backend-as-a-service” (not a particularly good name, but we’ll use it for now). MBaaS offerings sit squarely between the existing platform-as-a-service vendors and the full end-to-end solution space occupied by mobile enterprise/consumer application platforms (see Figure).I’ll go into more detail on the other layers of this mobile service triangle in the future, but for now let’s take a look at the MBaaS space.Why should I use an MBaaS solution?You’ve been given the challenge of developing a mobile app for your enterprise, and the funding’s there just waiting to be spent.You’ve gone through the current research.You’ve defined your target audience, the set of necessary functionality, and the overall experience you wish to deliver to that audience.</p>
-<p><a href="http://blogs.forrester.com/michael_facemire/12-04-25-mobile_backend_as_a_service_the_new_lightweight_middleware">Read Full Story</a></p>
-

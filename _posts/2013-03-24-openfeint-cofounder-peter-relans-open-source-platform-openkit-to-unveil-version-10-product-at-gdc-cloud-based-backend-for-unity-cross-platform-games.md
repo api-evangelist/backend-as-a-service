@@ -1,12 +1,0 @@
----
-layout: post
-title: OpenFeint Co-Founder Peter Relan's Open Source Platform OpenKit to Unveil Version 1.0 Product at GDC: Cloud Based Back-End for Unity Cross Platform Games
-url: http://www.marketwire.com/press-release/openfeint-co-founder-peter-relans-open-source-platform-openkit-unveil-version-10-product-1771185.htm
----
-{% include JB/setup %}<p>SAN FRANCISCO, CA--(Marketwire - Mar 22, 2013) -  More than half of the 1,000 developers whove signed up for the anticipated OpenKit public beta have indicated theyre interested in adding cloud features like Cloud Data Sync, Leaderboards and Facebook & Twitter Authentication to Unity games that run on both the Android and iOS platforms.Only 25 percent plan to use OpenKit for iOS only games while even fewer are opting for just Android says Peter Relan, founder of OpenKit, the first completely open backend-as-a-service (BAAS) platform for mobile developers with a guarantee of no lock-in of developer data.The two big asks were: give us cloud services for our Unity games, and let us own our data, says Relan.So we did it.This is an open source project: developers are the voice of OpenKit.Some of the top developers signed on with OpenKit are:
-         Snowbolt Interactive
-         Oyatsukai Games
-         Relan, a co-founder of the OpenFeint service closed by GREE in December, sees an immediate need in the developer community for an open architecture that gives developers the backend services they need to prosper in the Post-PC era, without getting locked in.Regardless of which platform approach you choose or which social integration feature is best for your game, OpenKits promise of no lock-in of developer data and the ability to host your own backend service is liberating, says Relan.OpenKits early adopters have spoken -- they want to own their data with a single API and service across iOS and Android.Meet OpenKit at GDC
-         Game developers can meet with OpenKit at the GDC Expo Hall from Wednesday through Friday at 1-5 PM.GDC attendees can schedule a meeting via Twitter @openkit_io or email at team@openkit.</p>
-<p><a href="http://www.marketwire.com/press-release/openfeint-co-founder-peter-relans-open-source-platform-openkit-unveil-version-10-product-1771185.htm">Read Full Story</a></p>
-

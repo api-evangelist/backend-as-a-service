@@ -1,8 +1,0 @@
----
-layout: post
-title: Rackspace Rolls Out Its Mobile Plan As Vendors Get Giddy About Backend Data Pipes And Spigots
-url: http://techcrunch.com/2013/04/09/rackspace-rolls-out-its-mobile-plan-as-vendors-get-giddy-about-backend-data-pipes-and-spigots/
----
-{% include JB/setup %}<p>Suddenly all this backend stuff is hot.Who would have ever thought that data pipes and the spigots would get so much attention? Salesforce is getting into the game and now so is Rackspace with the launch of its mobile push.Rackspace does not call its new offering backend as a service (BaaS).Instead they call it a “mobile-ready” stack that pre-packages the backend for developer so they do not have to reinvent the wheel every time they start a mobile project.Rackspace CTO John Engates wrote in an email that the company is packaging its expertise and experience to cut deployment time from days to minutes.The goal is to let developers focus on building the frontend of the apps, like user experience, while Rackspace deploys and runs the backend for them.Engates said Rackspace has also built in its own reference architectures that developers can use to optimize the development process.Engates said the first stack is for a LAMP PHP based deployment with MySQL, Varnish acceleration service, memcache and other components that optimize for a mobile backend deployment.All of this brings me back to a conversation online about the meaning of BaaS and the connections to platform as a service (PaaS).</p>
-<p><a href="http://techcrunch.com/2013/04/09/rackspace-rolls-out-its-mobile-plan-as-vendors-get-giddy-about-backend-data-pipes-and-spigots/">Read Full Story</a></p>
-

@@ -1,8 +1,0 @@
----
-layout: post
-title: Kinvey’s Enterprise Edition: A Disruption of the MEAP Industry
-url: http://kinveyposts.wordpress.com/2013/03/20/kinveys-enterprise-edition-a-disruption-of-the-meap-industry-2/
----
-{% include JB/setup %}<p>We are thrilled to introduce the Kinvey Enterprise Edition platform. Just as Kinvey allows individual and agency developers to rapidly prototype, publish and manage consumer apps, we are now bringing that same power to enterprise developers that are responsible for equipping an increasingly mobile workforce with powerful business apps. The new Kinvey platform allows enterprise developers to build and maintain secure mobile apps that can “mobilize” data from virtually any data source. Right out of the gate, Kinvey’s Enterprise Edition platform is being used by global enterprises for mobile apps that authenticate via LDAP and Active Directory, and connect to their Salesforce CRM™ and Oracle® databases.You can find out everything you need to know about the Enterprise Edition platform in our press release.Those who follow the Backend as a Service (BaaS) space know what this announcement means: disruption. Specifically, it’s a disruption of the incumbent Mobile Enterprise Application Platform (MEAP) industry. When it comes to mobile app development, developers have always expected flexible processes and customizable solutions. Words like “self-service” and “agile” pepper their language. Today, thanks to the “developerization” of IT, enterprise developers have come to share these values.</p>
-<p><a href="http://kinveyposts.wordpress.com/2013/03/20/kinveys-enterprise-edition-a-disruption-of-the-meap-industry-2/">Read Full Story</a></p>
-
