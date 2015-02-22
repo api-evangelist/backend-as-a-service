@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
-<p><a href="http://baas.apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="25" align="right" /></a></p>
-<p align="center">Here is what I am reading when it comes to BaaS.</p>
+<p><a href="http://containers.apievangelist.com/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="25" align="right" /></a></p>
+<p align="center">Here is what I am reading when it comes to the interesection of containers and APIs.</p>
 <table cellpadding="1" cellspacing="1" width="100%" border="0">
 	<tr><td colspan="2" align="center"><hr style="padding: 1px 1px 1px 1px; margin: 1px 1px 1px 1px;" /></td></tr>
 {% for post in paginator.posts %}
@@ -22,7 +22,7 @@ layout: default
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a href="/blog/page{{paginator.next_page}}" class="older">Older</a>
+    <a href="/news/page{{paginator.next_page}}" class="older">Older</a>
   {% else %}
     <span class="next">Older</span>
   {% endif %}
@@ -30,7 +30,7 @@ layout: default
     {% if paginator.page == 2 %}
       <a href="/" class="newer">Newer</a>
     {% else %}
-      <a href="/blog/page{{paginator.previous_page}}" class="newer">Newer</a>
+      <a href="/news/page{{paginator.previous_page}}" class="newer">Newer</a>
     {% endif %}
   {% else %}
     <span class="previous">Newer</span>
