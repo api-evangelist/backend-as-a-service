@@ -7,12 +7,24 @@
 		"website": "https://auth0.com/",
 		"twitter": "https://twitter.com/authzero",
 		"github": "https://github.com/auth0",
+		"apisjson_url": "http://theapistack.com/data/ask-ziggy/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/auth0",
+		"base_url": "https://auth0.com/docs/apiv2",
 		"blog": "https://auth0.com/blog/",
 		"blogrss": "http://feeds.feedburner.com/auth0",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/auth0-logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/auth0-logo.png",
-		"tags": null
+		"tags": [
+			"User-Stack",
+			"OAuth",
+			"Identity",
+			"Authentication",
+			"Auth-Stack",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "8U2HGlHmFRLDzBZHhNnp5sPbnxpVMNmtVEDpXWjaqLZAKBkgKQFekqbg0kjS123MOW116U5kEjfaWxcoVeDiYqIf6w117117",
@@ -22,12 +34,22 @@
 		"website": "https://www.authy.com/",
 		"twitter": "https://twitter.com/authy",
 		"github": "https://github.com/authy",
+		"apisjson_url": "http://theapistack.com/data/authy/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/authy",
+		"base_url": "https://www.authy.com/developers/",
 		"blog": "https://www.authy.com/blog/",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/authy-logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/authy-logo.jpg",
-		"tags": null
+		"tags": [
+			"Security",
+			"Authentication-Stack",
+			"Authentication",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "1167s3k1239jzX6XVGVUxbpMvApFZHiDSXa26OgGDBejTiWqP3pDk0Gyz1XMCr3EAClUWjgLNjtL04V4xL1WrIg9Yg117117",
@@ -37,12 +59,24 @@
 		"website": "http://www.duosecurity.com",
 		"twitter": "https://twitter.com/duosec",
 		"github": "",
+		"apisjson_url": "http://theapistack.com/data/duo-security/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "https://www.duosecurity.com/api",
 		"blog": "http://blog.duosecurity.com",
 		"blogrss": "view-source:https://www.duosecurity.com/feed",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/duo-security-logo.jpeg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/duo-security-logo.jpeg",
-		"tags": null
+		"tags": [
+			"Two-factor authentication",
+			"Security-Stack",
+			"Security",
+			"Mobile",
+			"Authentication",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "sWPJf5v00Qm7kDwIJXLWZjQ116QS123Z27Bcie1aXR8bivnglsCG5Y4SD116KIcQ1123UKHbZu6IKxkWw6JYDCeRQhhipQ117117",
@@ -52,12 +86,25 @@
 		"website": "http://gigya.com/",
 		"twitter": "https://twitter.com/Gigya",
 		"github": "https://github.com/gigya",
+		"apisjson_url": "http://theapistack.com/data/gigya/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/gigya",
+		"base_url": "http://developers.gigya.com/",
 		"blog": "http://blog.gigya.com",
 		"blogrss": "http://blog.gigya.com/feed/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/600_logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/600_logo.png",
-		"tags": null
+		"tags": [
+			"Social-Stack",
+			"Social Sharing",
+			"Social Networking",
+			"Social",
+			"Partners",
+			"Authentication",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "dpNuS2VZVnRsCLCXyVRp6ZrEGIK0UzoLDeL2PfK1162NY97TFXzwlTCSSHPlTsvFGNAKRYJpMfs1235eokugKO4116lw117117",
@@ -67,12 +114,22 @@
 		"website": "http://www.gluu.org/",
 		"twitter": "https://twitter.com/GluuFederation",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "http://www.gluu.org/blog/",
 		"blogrss": "http://www.gluu.org/blog/feed",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gluu-logo.png",
 		"logo_width": "140",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gluu-logo.png",
-		"tags": null
+		"tags": [
+			"Management",
+			"Identity",
+			"Authentication",
+			"API Management Other"
+		]
 	},
 	{
 		"id": "wN4EsxxbIX0VyF6KFAy116f2p2uLLR0123mlv1uafe5Q0KjqXGyus0pCDgl1161CBbgG23apfmpMdjICnaWtRQ6poPFw117117",
@@ -82,12 +139,24 @@
 		"website": "http://janrain.com",
 		"twitter": "https://twitter.com/janrain",
 		"github": "https://github.com/janrain",
+		"apisjson_url": "http://theapistack.com/data/janrain/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/janrain",
+		"base_url": "http://developers.janrain.com/documentation/engage/",
 		"blog": "http://www.janrain.com/blog",
 		"blogrss": "http://feeds.feedburner.com/janrain-blog",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/825_logo.jpg",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/825_logo.jpg",
-		"tags": null
+		"tags": [
+			"OpenID",
+			"Identity-Stack",
+			"Identity",
+			"Authentication-Stack",
+			"Authentication",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "0raqceim7nhyKypKGWI4hy9JyOcFdtnOTvN6nrsW4jcy5qwW0jZUCaei0RI64AfDDKbXSKeVM7Ke116D6g1Q40yw117117",
@@ -97,12 +166,24 @@
 		"website": "http://www.loginradius.com/",
 		"twitter": "https://twitter.com/LoginRadius",
 		"github": "https://github.com/LoginRadius",
+		"apisjson_url": "http://theapistack.com/data/loginradius/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/LoginRadius",
+		"base_url": "http://www.loginradius.com/developers",
 		"blog": "http://blog.loginradius.com",
 		"blogrss": "http://blog.loginradius.com/feed/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1086_logo.png",
 		"logo_width": "160",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1086_logo.png",
-		"tags": null
+		"tags": [
+			"User Management",
+			"Login",
+			"Identity-Stack",
+			"Authentication-Stack",
+			"Authentication",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "Bw123asN7yObBnTjmVMFZhMPXXItQ4T0tyJZTIX69r2oC2PWmlhhwyYEQmHjYs8q87FhsHFbjAhp6Y1231qEtjnSQg117117",
@@ -112,12 +193,22 @@
 		"website": "https://oauth.io/",
 		"twitter": "https://twitter.com/OAuth_io",
 		"github": "https://github.com/oauth-io",
+		"apisjson_url": "http://theapistack.com/data/oauthio/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/oauth-io",
+		"base_url": "https://oauth.io/docs/overview",
 		"blog": "http://blog.oauth.io/",
 		"blogrss": "http://blog.oauth.io/feed/",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oauth-io.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/oauth-io.png",
-		"tags": null
+		"tags": [
+			"Authentication-Stack",
+			"Authentication",
+			"API-Stack",
+			"API LIfeycle"
+		]
 	},
 	{
 		"id": "2Fn6ydY36kD6cVXKhYrYg4PbXzYhkH1DwL4k8x123kLldNj22Qv8b123hjNAvnZE3mRMloaG1shNfpxHEzhcM2YuBw117117",
@@ -127,12 +218,21 @@
 		"website": "https://www.okta.com",
 		"twitter": "https://twitter.com/okta",
 		"github": "https://github.com/okta",
+		"apisjson_url": "http://theapistack.com/data/okta/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/okta",
+		"base_url": "http://developer.okta.com/",
 		"blog": "http://www.okta.com/blog/",
 		"blogrss": "http://feeds.feedburner.com/OktaBlog",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1937_logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1937_logo.png",
-		"tags": null
+		"tags": [
+			"Identity-Stack",
+			"Authentication",
+			"API-Stack"
+		]
 	},
 	{
 		"id": "oDIgKDf0BUIPAkmtSBZJc4bRRtdc123EtPRAEo8123BLxc87PYeGVIBbnLR1K2t2upVSrdoXbc04OYvqEIfUK1up1w117117",
@@ -142,12 +242,20 @@
 		"website": "https://forgerock.org/openuma/",
 		"twitter": "",
 		"github": "",
+		"apisjson_url": "",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "",
+		"base_url": "",
 		"blog": "",
 		"blogrss": "",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-uma.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/open-uma.png",
-		"tags": null
+		"tags": [
+			"OAuth",
+			"Authentication"
+		]
 	},
 	{
 		"id": "cn0OdkE9Vm8JeaSJFzfXRQjU00ULdxc8cQMKGe3KCwDeGE0gHuFnCmt116jGEJJVa1236jr0QSsTtW074jWqT950uA117117",
@@ -157,11 +265,25 @@
 		"website": "http://www.stormpath.com/",
 		"twitter": "https://twitter.com/#!/gostormpath",
 		"github": "https://github.com/stormpath",
+		"apisjson_url": "http://theapistack.com/data/stormpath/apis.json",
+		"sdksio_url": "",
+		"postman_url": "",
+		"portal_url": "https://github.com/stormpath",
+		"base_url": "http://docs.stormpath.com/",
 		"blog": "http://www.stormpath.com/blog/",
 		"blogrss": "http://www.stormpath.com/blog/feed",
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1170_logo.png",
 		"logo_width": "150",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1170_logo.png",
-		"tags": null
+		"tags": [
+			"User-Stack",
+			"User Management",
+			"Security",
+			"Identity-Stack",
+			"Identity",
+			"Authentication",
+			"API-Stack",
+			"API LIfeycle"
+		]
 	}
 ]
