@@ -1,29 +1,7 @@
 ---
-layout: post
-title: 'iOS SDK 1.6'
-url: http://quickblox.com/blog/2013/07/ios-sdk-1-6/
+layout: redirect
+title: iOS SDK 16
 source: http://quickblox.com/blog/2013/07/ios-sdk-1-6/
 domain: quickblox.com
 image: http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/quickblox-comblog201307ios-sdk-1-6.png
 ---
-
-<p>We have released new version of iOS SDK – 1.6 – with lots of new beautiful features.Added ‘sendPresenceWithStatus’ method to QBChat to send presence with additional text
- Added ‘sendDirectPresenceWithStatus:toUser:’ method to QBChat to send direct presence inside contact list
- 
- QBChatMessage model: Added convenience constructor to QBChatMessage: [QBChatMessage message]
- Changed type of QBChatMessage ID field to NSString
- Added ability to set custom parameters to QBChatMessage
- 
- Auto add appID to room name – http://quickblox.com/developers/Chat#Room_naming_convention
- Updated QBChatDelegate method ‘chatRoomDidChangeOnlineUsers:room:’.Now, each object from ‘onlineUsers’ array is an instance of QBChatRoomOccupant class
- 
- Video chat: Updated VideoChat API: now you should work with QBVideoChat object instead of QBChat
- Added ability to make audio calls (without video)
- Added ability to set custom AVCaptureSession for video chat
- Added ability to set kQBVideoChatP2PTimeout
- Added ability to manage torch during call
- Added ability to switch camera(back, face) during call
- Added ability to set video capture preset
- Added ‘cancelCall’ method to QBVideoChat to cancel ‘callUser:’ method
- Added custom parameters to methods ‘callUser:’ & ‘acceptCall’</p>
-

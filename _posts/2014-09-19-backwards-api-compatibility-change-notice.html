@@ -1,11 +1,7 @@
 ---
-layout: post
-title: 'Backwards API Compatibility Change Notice'
-url: https://backendless.com/backwards-api-compatibility-change-notice/
+layout: redirect
+title: Backwards API Compatibility Change Notice
 source: https://backendless.com/backwards-api-compatibility-change-notice/
 domain: backendless.com
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/backendless-combackwards-api-compatibility-change-notice.png
 ---
-
-<p>We are preparing a new maintenance release with important bug fixes and improvements.One of the changes in the release breaks backwards compatibility for REST clients.The scope of the change is rather minor: any data object property marked as DATETIME will be serialized (from server to client) as a number (a timestamp) representing the number of milliseconds since January 1, 1970, 00:00:00 GMT.Currently these values are returned as String objects in the following format: “MM/DD/YYY hh:mm:ss timezone”.This change will go on effect on September 24th at 8am US Central time.</p>
-
