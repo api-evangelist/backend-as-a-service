@@ -28,7 +28,7 @@ title: Backend as a Service (BaaS)
     <ul class="newslist">
       {% assign totalpost = 4 %}
       {% assign countpost = 1 %}
-      {% for post in site.posts limit:250 %}
+      {% for post in site.posts limit:75 %}
         {% if post.title != null %}
           {% if countpost < totalpost %}
             <li><a href="{{ post.source }}">{{ post.title }}</a></li>
