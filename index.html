@@ -31,12 +31,17 @@ title: Backend as a Service (BaaS)
       {% for post in site.posts limit:150 %}
         {% if post.title != null %}
 
+            <!--Guess this is only way to do??-->
             {% if amount == '1' %}
-              <li><a href="{{ post.source }}">{{ amount }}) {{ post.title }}</a></li>
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
             {% elsif amount == '2' %}
-              <li><a href="{{ post.source }}">{{ amount }}) {{ post.title }}</a></li>
-              {% elsif amount == '3' %}
-                <li><a href="{{ post.source }}">{{ amount }}) {{ post.title }}</a></li>
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+            {% elsif amount == '3' %}
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+            {% elsif amount == '4' %}
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+            {% elsif amount == '5' %}
+              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
             {% endif %}
 
             {% capture amount %}{{ amount | plus: '1' }}{% endcapture %}
