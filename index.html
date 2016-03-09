@@ -28,7 +28,7 @@ title: Backend as a Service (BaaS)
     <ul class="newslist">
       {% assign totalpost = 4 %}
       {% assign amount = 1 %}
-      {% for post in site.posts %}
+      {% for post in site.posts limit:150 %}
       <li><a href="{{ post.source }}">{{ amount }}) {{ post.title }}</a></li>
       {% capture amount %}{{ amount | plus:1 }}{% endcapture %}
       {% endfor %}
