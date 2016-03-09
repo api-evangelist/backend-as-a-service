@@ -926,9 +926,9 @@
 		"github": "https://github.com/appcelerator",
 		"blog": "http://www.appcelerator.com/blog/",
 		"blogrss": "http://www.appcelerator.com/feed/",
-		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company-screenshots/appcelerator-screenshot.png",
-		"logo_width": "550",
-		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company-screenshots/appcelerator-screenshot.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appcelerator-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/appcelerator-logo.png",
 		"tags": "API LIfeycle,BaaS",
 		"apis": [
 		]
@@ -1011,9 +1011,9 @@
 		"github": "https://github.com/Backendless",
 		"blog": "https://backendless.com/blog/",
 		"blogrss": "https://backendless.com/feed/",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/backendless-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/backendless-logo.png",
 		"tags": "BaaS",
 		"apis": [
 		]
@@ -1147,9 +1147,9 @@
 		"github": "https://github.com/GameSparksLtd",
 		"blog": "http://www.gamesparks.com/blog/",
 		"blogrss": "",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gamesparks-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gamesparks-logo.png",
 		"tags": "BaaS,Gaming",
 		"apis": [
 		]
