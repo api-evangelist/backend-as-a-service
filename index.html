@@ -30,12 +30,9 @@ title: Backend as a Service (BaaS)
       {% assign amount = 0 %}
       {% for post in site.posts limit:150 %}
         {% if post.title != null %}
-            {% capture amount %}
 
-              <li><a href="{{ post.source }}">{{ amount }} -- {{ post.title }}</a></li>
-
-              {{ amount | plus: '1' }}
-            {% endcapture %}
+            <li><a href="{{ post.source }}">{{ amount }} --- {{ post.title }}</a></li>
+            {% increment amount %}
 
         {% endif %}
       {% endfor %}
