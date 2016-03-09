@@ -32,8 +32,7 @@ title: Backend as a Service (BaaS)
         {% if post.title != null %}
 
             {% capture count %}{{ count | plus: '1' }}{% endcapture %}
-            {% assign amount = count %}
-            {% unless amount > 5 %}
+            {% unless count > 5 %}
               <li><a href="{{ post.source }}">{{ count }}) {{ post.title }}</a></li>
             {% endunless %}
 
