@@ -1334,9 +1334,9 @@
 		"github": "https://github.com/mParticle",
 		"blog": "http://blog.mparticle.com/",
 		"blogrss": "http://blog.mparticle.com/feed/",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mparticle-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mparticle-logo.png",
 		"tags": "BaaS",
 		"apis": [
 		]
@@ -1542,9 +1542,9 @@
 		"github": "https://github.com/Synergykit",
 		"blog": "http://blog.synergykit.com/",
 		"blogrss": "",
-		"logo": "",
-		"logo_width": "0",
-		"screenshot": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/synergykit-logo.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/synergykit-logo.png",
 		"tags": "BaaS",
 		"apis": [
 		]
