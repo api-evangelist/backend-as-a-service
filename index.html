@@ -32,9 +32,9 @@ title: Backend as a Service (BaaS)
         {% if post.title != null %}
           {% if countpost < totalpost %}
             <li><a href="{{ post.source }}">{{ post.title }}</a></li>
+            {% capture countpost %}{{ countpost | plus:1 }}{% endcapture %}
           {% endif %}
         {% endif %}
-        {% capture countpost %}{{ countpost | plus:1 }}{% endcapture %}
       {% endfor %}
     </ul>
 
