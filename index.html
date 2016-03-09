@@ -29,13 +29,11 @@ title: Backend as a Service (BaaS)
       {% assign totalpost = 4 %}
       {% assign countpost = 1 %}
       {% for post in site.posts limit:75 %}
-        <li><a href="{{ post.source }}">{{ post.title }}</a>{{ countpost }}</li>
         {% if post.title != null %}
           {% if countpost < totalpost %}
             <li><a href="{{ post.source }}">{{ post.title }}</a></li>
           {% endif %}
         {% endif %}
-        
         {% capture countpost %}{{ countpost | plus:1 }}{% endcapture %}
       {% endfor %}
     </ul>
