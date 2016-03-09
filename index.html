@@ -38,10 +38,6 @@ title: Backend as a Service (BaaS)
               <li><a href="{{ post.source }}">{{ post.title }}</a></li>
             {% elsif amount == '3' %}
               <li><a href="{{ post.source }}">{{ post.title }}</a></li>
-            {% elsif amount == '4' %}
-              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
-            {% elsif amount == '5' %}
-              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
             {% endif %}
 
             {% capture amount %}{{ amount | plus: '1' }}{% endcapture %}
