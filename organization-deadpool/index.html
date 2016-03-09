@@ -5,7 +5,7 @@ title: Organizations - Deadpool
 <p>These are the current Backend as a Service (BaaS) providers I am tracking on as part of my API research, who have gone away or shutdown service.</p>
 <table width="100%" border="0" cellpadding="3" cellspacing="2">
   {% for org in site.data.organizations %}
-    {% if org.tags contains 'Deadpool' %}
+    {% org.tags contains 'Deadpool' %}
       <tr>
         <td align="left" width="80%" style="border-top: 1px solid #CCC; padding-top:18px;">
           <a href="{{ org.website }}"><img src="{{ org.logo }}" width="{{ org.logo_width }}" align="left" style="padding: 15px;" /></a>
