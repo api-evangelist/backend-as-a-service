@@ -1133,7 +1133,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/flurry-logo.png",
 		"logo_width": "210",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/flurry-logo.png",
-		"tags": "BaaS,BaaS Deadpool",
+		"tags": "BaaS",
 		"apis": [
 		]
 	},
