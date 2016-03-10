@@ -934,6 +934,23 @@
 		]
 	},
 	{
+		"id": "KrkBzpP0WiMO3CBOFJhpd123Poj4aDo123KxKdWNl9WsNMc117",
+		"name": "Appery.io",
+		"summary": "Appery.io is a rapid development, integration and deployment platform for delivering cross-device apps in the enterprise. It combines enterprise-grade integration middleware with a browser-based rapid development environment and mobile backend services to accelerate enterprise mobilization. Appery.io enables developers and business analysts to rapidly create and run apps that help businesses of al",
+		"details": "Appery.io is a rapid development, integration and deployment platform for delivering cross-device apps in the enterprise. It combines enterprise-grade integration middleware with a browser-based rapid development environment and mobile backend services to accelerate enterprise mobilization. Appery.io enables developers and business analysts to rapidly create and run apps that help businesses of all sizes increase revenues and improve productivity.",
+		"website": null,
+		"twitter": null,
+		"github": null,
+		"blog": null,
+		"blogrss": null,
+		"logo": null,
+		"logo_width": null,
+		"screenshot": null,
+		"tags": "BaaS",
+		"apis": [
+		]
+	},
+	{
 		"id": "sBZ20wpVW5DcA37eGWv0KJwcZoygQbZrVn0oPYkuXSA117",
 		"name": "AppStax",
 		"summary": "Build fantastic apps on a unique real-time infrastructure with extended support for reactive programming. AppStax also provide a flexible server environment where you can deploy fully fledged NodeJS Servers. AppStax is developed by AppStax Technologies AS in Oslo Norway on behalf of EVRY - one of the largest IT companies in the Nordics. EVRY provides extensive deliveries to Nordic companies, finan",
@@ -1371,7 +1388,7 @@
 		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/parse-logo.png",
 		"logo_width": "225",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/parse-logo.png",
-		"tags": "API LIfeycle,BaaS",
+		"tags": "BaaS,BaaS Deadpool",
 		"apis": [
 		]
 	},
@@ -1529,6 +1546,23 @@
 		"logo_width": "250",
 		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/serviceproviders/sencha-logo.png",
 		"tags": "BaaS",
+		"apis": [
+		]
+	},
+	{
+		"id": "ahBBe23d4Pl4wF4uMWby6ws4DOMXwkI5oMLIgdPpKio117",
+		"name": "StackMob",
+		"summary": "StackMob&rsquo;s mobile platform helps developers create a mobile business by letting them easily build, deploy and grow full-featured applications from the very first version. StackMob cuts backend development time from months to minutes, letting developers focus on creating powerful apps with quality user experiences. StackMob also provides a front-end development environment that developers can",
+		"details": "StackMob&rsquo;s mobile platform helps developers create a mobile business by letting them easily build, deploy and grow full-featured applications from the very first version. StackMob cuts backend development time from months to minutes, letting developers focus on creating powerful apps with quality user experiences. StackMob also provides a front-end development environment that developers can use to create a single, feature-rich application that runs seamlessly on multiple mobile operating systems. Mobile represents the first personal mass-media device and one of the fastest growing industries in the world. To stay ahead in this ever-changing landscape, developers need to focus on creating differentiating value on the client side of their applications.",
+		"website": "http://stackmob.com",
+		"twitter": "https://twitter.com/stackmob",
+		"github": "https://github.com/stackmob",
+		"blog": "",
+		"blogrss": "",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/stackmob-logo.png",
+		"logo_width": "325",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/stackmob-logo.png",
+		"tags": "BaaS,BaaS Deadpool",
 		"apis": [
 		]
 	},
