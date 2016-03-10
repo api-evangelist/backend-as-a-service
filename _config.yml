@@ -62,6 +62,15 @@ navigation:
     size2: 60
     padding: 0
     decorate: 0
+  - label1: Dead Pool
+    link1: /organization-deadpool/
+    size1: 80
+    extend: 0
+    label2:
+    link2:
+    size2: 60
+    padding: 0
+    decorate: 0
   - label1: Building Blocks
     link1: /building-blocks/
     size1: 80
