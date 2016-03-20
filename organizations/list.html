@@ -1,0 +1,12 @@
+---
+layout: page
+title: Organizations
+---
+<p>A list of the current Backend as a Service (BaaS) providers I am tracking on as part of my API research currently.</p>
+<ul>
+  {% for org in site.data.organizations %}
+    {% unless org.tags contains 'Deadpool' %}
+      <li><a href="{{ org.website }}">{{ org.name }}</a></li>
+    {% endunless %}
+  {% endfor %}
+</ul>
