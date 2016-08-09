@@ -72,6 +72,15 @@ navigation:
     size2: 60
     padding: 0
     decorate: 0
+  - label1: Dead Pool
+    link1: /organizations-deadpool/
+    size1: 80
+    extend: 0
+    label2: JSON
+    link2: /data/organizations.json
+    size2: 60
+    padding: 0
+    decorate: 0
   - label1: Tools
     link1: /tools/
     size1: 80
