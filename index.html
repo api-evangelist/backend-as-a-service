@@ -1,53 +1,35 @@
 ---
 layout: page
-title: Backend as a Service (BaaS)
+title: 'Backend as a Service (BaaS)'
 ---
-
 <p style="font-size: 12px; padding:5px;">
-  <img src="{{ site.project_image }}" align="right" width="75" style="padding:10px;" />
+  <img src="{{ site.project_image }}" align="right" width="75" style="padding:15px;" />
   {{ site.project_summary }}
 </p>
 
 <center><hr style="padding: 5px 5px 5px 5px; margin: 5px; width: 85%;" /></center>
 <div class="row" style="vertical-align: top;" align="center">
 
-  <div class="span2" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
 
     <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Top Links</strong></p>
     <ul class="featurelist">
-      <li><a href="http://built.io">Built.io</a></li>
-      <li><a href="http://kinvey.com">Kinvey</a></li>
-      <li><a href="http://appery.io">Appery</a></li>
-      <li><a href="http://www.anypresence.com/">AnyPresence</a></li>
-      <li><a href="http://cloudmineinc.com/">Cloudmine</a></li>
-    </ul>
-
-  </div>
-  <div class="span4" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
-    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/blog.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
-    <ul class="newslist">
-      {% assign totalpost = 4 %}
-      {% assign amount = 0 %}
-      {% for post in site.posts limit:150 %}
-        {% if post.title != null %}
-
-            <!--Guess this is only way to do??-->
-            {% if amount == '1' %}
-              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
-            {% elsif amount == '2' %}
-              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
-            {% elsif amount == '3' %}
-              <li><a href="{{ post.source }}">{{ post.title }}</a></li>
-            {% endif %}
-
-            {% capture amount %}{{ amount | plus: '1' }}{% endcapture %}
-
-        {% endif %}
+      {% for org in site.data.organizations  limit:10 %}
+        <li><a href="{{ org.website }}">{{ org.name }}</a></li>
       {% endfor %}
     </ul>
 
   </div>
-  <div class="span4" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
+    <p><strong><span style="font-size: 20px;">&#8620;</span>&nbsp;&nbsp;Latest News</strong><a href="/news.xml"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-rss-icon.png" width="15" style="padding-left: 5px;" /></a></p>
+    <ul class="newslist">
+      {% for curated in site.data.curated  limit:4 %}
+        <li><a href="{{ curated.url }}">{{ curated.title }}</a></li>
+      {% endfor %}
+    </ul>
+
+  </div>
+  <div class="span3" align="left" style="float: none; margin: 0 auto; display: inline-block; height: 100%; vertical-align: top;">
 
     <script type="text/javascript">
       $url = 'http://apievangelist.com/blog.xml';
@@ -57,7 +39,7 @@ title: Backend as a Service (BaaS)
               var el = $(this);
               $title = el.find("title").text();
               $link = el.find("link").text();
-              if($listcount<2){
+              if($listcount<4){
                 $listitem = '<li><a href="' + $link + '">' + $title + '</a></li>';
                 $('#rssNews').append($listitem);
                 }
@@ -77,7 +59,7 @@ title: Backend as a Service (BaaS)
   <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
 
     <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="#"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-101.jpg" width="45" style="padding-right: 5px;" /><strong>&nbsp;&nbsp;Learn The Basics From This Research</strong></a></li>
+      <li><a href="http://microservices.apievangelist.com"><strong><span style="font-size: 20px;">&#8666;</span>&nbsp;&nbsp;Visit My Research On Microservices</strong></a></li>
     </ul>
 
   </div>
@@ -85,26 +67,7 @@ title: Backend as a Service (BaaS)
   <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
 
     <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://deployment.apievangelist.com"><strong>Visit My Research On API Deployment&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
-    </ul>
-
-  </div>
-
-</div>
-<div class="row" align="center" style="">
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="left">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://management.apievangelist.com"><strong>&nbsp;&nbsp;&nbsp;Visit My Research On API Management</strong></a></li>
-    </ul>
-
-  </div>
-
-  <div class="span5" style="float: none; margin: 0 auto; display: inline-block;" align="right">
-
-    <ul class="newslist" style="list-style: none; font-size: 14px; padding: 0px; margin: 0px;">
-      <li><a href="http://virtualization.apievangelist.com"><strong>Visit My Research On API Virtualization&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
+      <li><a href="http://baas.apievangelist.com/"><strong>Visit My Research On BaaS&nbsp;&nbsp;<span style="font-size: 20px;">&#8667;</span></strong></a></li>
     </ul>
 
   </div>
