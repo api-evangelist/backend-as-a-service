@@ -73,7 +73,7 @@ navigation:
     padding: 0
     decorate: 0
   - label1: Dead Pool
-    link1: /organizations-deadpool/
+    link1: /organization-deadpool/
     size1: 80
     extend: 0
     label2: JSON
