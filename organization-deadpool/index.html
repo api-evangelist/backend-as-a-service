@@ -5,6 +5,7 @@ title: BaaS - Deadpool
 <p>These are the current Backend as a Service (BaaS) providers I am tracking on as part of my API research, who have gone away or shutdown service.</p>
 <table width="100%" border="0" cellpadding="3" cellspacing="2">
   {% for org in site.data.organizations %}
+    <tr><td>{{ org.tags }}</td></tr>
     {% if org.tags contains 'Deadpool' %}
     <tr>
       <td align="center" width="15%" style="border-top: 1px solid #CCC; padding-top:18px; padding-bottom:18px;">
