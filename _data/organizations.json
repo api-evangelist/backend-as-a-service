@@ -81,6 +81,7 @@
 			"Monitoring",
 			"Management",
 			"Hypermedia",
+			"Getting Started",
 			"DNS Cloud",
 			"DNS",
 			"Deployment",
@@ -619,9 +620,9 @@
 		"base_url": "",
 		"blog": "",
 		"blogrss": "",
-		"logo": "http://pbs.twimg.com/profile_images/1767153894/geoloqi-profile-image_normal.png",
-		"logo_width": "100",
-		"screenshot": "http://pbs.twimg.com/profile_images/1767153894/geoloqi-profile-image_normal.png",
+		"logo": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Geoloqi-Logo-Stacked-Color-On-Light.png",
+		"logo_width": "150",
+		"screenshot": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Geoloqi-Logo-Stacked-Color-On-Light.png",
 		"tags": [
 			"BaaS Deadpool",
 			"BaaS"
