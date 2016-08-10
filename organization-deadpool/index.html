@@ -5,8 +5,16 @@ title: BaaS - Deadpool
 <p>These are the current Backend as a Service (BaaS) providers I am tracking on as part of my API research, who have gone away or shutdown service.</p>
 <table width="100%" border="0" cellpadding="3" cellspacing="2">
   {% for org in site.data.organizations %}
+
+    {% assign dead_pool = 0 %}
+
     {% for tag in org.tags %}
       {% if tag contains 'Deadpool' %}
+        {% assign dead_pool = 1 %}
+      {% endif %}
+    {% endfor %}
+
+    {% if tag dead_pool == 1 %}
       <tr>
         <td align="center" width="15%" style="border-top: 1px solid #CCC; padding-top:18px; padding-bottom:18px;">
           <a href="{{ org.website }}"><img src="{{ org.logo }}" width="90%" align="center" /></a>
@@ -56,6 +64,6 @@ title: BaaS - Deadpool
         </td>
       </tr>
       {% endif %}
-    {% endfor %}
+
   {% endfor %}
 </table>
